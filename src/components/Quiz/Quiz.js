@@ -2,15 +2,17 @@ import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import QuizShow from '../QuizShow/QuizShow';
 
+
 const Quiz = () => {
-    const loaderData = useLoaderData();
-   const  questions = loaderData.data
+    const quizData = useLoaderData();
+    
+   const quizs =quizData.data.questions
     return (
         <div>
            {
-            questions.map(question => <QuizShow
-            key={question.id}
-            question = {question}
+            quizs.map(quiz=><QuizShow
+            key ={quiz.id}
+            quiz={quiz}
             ></QuizShow>)
            }
         </div>

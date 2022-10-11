@@ -16,7 +16,7 @@ const Quiztopics = ({quizTopic}) => {
             </div>
             <div className='flex justify-between mt-4 '>
             <p className='text-2xl'>{name}</p>
-            <Link to='/' className='p-2 bg-indigo-500 rounded'>Start Practice</Link>
+            <a href={`../quizTopic/${id}`} className='p-2 bg-indigo-500 rounded'>Start Practice</a>
             </div>
             </div>
         </div>

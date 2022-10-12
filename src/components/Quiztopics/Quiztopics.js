@@ -15,7 +15,7 @@ const Quiztopics = ({quizTopic}) => {
             <img src={logo} alt='' className=''></img>
             </div>
             <div className='flex justify-between mt-4 '>
-            <p className='text-2xl'>{name}</p>
+            <p className='text-2xl font-bold text-white'>{name}</p>
             <a href={`../quizTopic/${id}`} className='p-2 mb-2 font-bold bg-white text-orange-400 hover:bg-orange-700 rounded'>Start Practice</a>
             </div>
             </div>

@@ -7,8 +7,8 @@ const Header = () => {
             <img src='https://img.freepik.com/premium-vector/quiz-time-megaphone-yellow-banner-3d-style-illustration_123447-821.jpg?w=2000' alt='' className='w-2/4 h-40 ml-16'></img>
         </div>
         <div>
-            <div className='mr-8'>
-                    <h2 className='font-bold mt-8 mb-8'> Welcome to Our Quiz Show </h2>
+            <div className='mr-8 text-orange-400'>
+                    <h2 className='font-bold mt-8 mb-8 '> Welcome to Our Quiz Show </h2>
                     <p>
 
 

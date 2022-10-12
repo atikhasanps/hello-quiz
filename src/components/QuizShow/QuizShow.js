@@ -43,7 +43,7 @@ const QuizShow = ({quiz, quizTopic}) => {
 
                       
 
-                <div className='w-1/2 mx-auto mt-12 bg-orange-400 rounded-2xl'>
+                <div className='w-1/2 mx-auto mt-12 mb-12 bg-orange-400 rounded-2xl'>
                             
                             <div className=''>
 

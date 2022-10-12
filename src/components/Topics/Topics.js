@@ -10,9 +10,9 @@ const Topics = () => {
         
         <div> 
             <Header></Header>
-            <div className='px-28 py-4 mx-auto '>
+            <div className='lg:px-28 lg:py-4 mx-auto mb-16'>
          
-         <div className='grid lg:grid-cols-4  '>
+         <div className='grid lg:grid-cols-4 sm:grid-cols-2 md:gap-10 sm:gap-5 '>
          {
             quizTopics.map(quizTopic => (<Quiztopics
             key={quizTopic.id}

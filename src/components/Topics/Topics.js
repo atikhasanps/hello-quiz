@@ -17,6 +17,7 @@ const Topics = () => {
             quizTopics.map(quizTopic => (<Quiztopics
             key={quizTopic.id}
             quizTopic={quizTopic}
+           
            />))
         }
          </div>

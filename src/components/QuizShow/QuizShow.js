@@ -17,14 +17,13 @@ const QuizShow = ({quiz, quizTopic}) => {
   const  handleRadioButton =(event)=>{
          
    
-           console.log(options)
-        
+      
 
-        //  if(options==correctAnswer){
-        //     alert('right')
-        //  } else{
-        //     alert('wrong')
-        //  }
+         if(options === correctAnswer){
+            alert('Answer is right')
+         } else{
+            alert('Answer is wrong')
+         }
     }
 
     
